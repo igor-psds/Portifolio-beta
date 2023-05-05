@@ -102,7 +102,7 @@ li:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('./midia/background_5.jpg');
+    background-image: url('./midia/background_5.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -127,7 +127,7 @@ li:hover {
     width: 150px;
     height: auto;
     border-radius: 50%;
-    border: 4px solid #2fda0d;
+    border: 4px solid rgb(5, 176, 255);
 }
 
 .name-text {
@@ -149,11 +149,16 @@ li:hover {
     height: 50px;
     border-radius: 15px;
     border: none;
-    background-color: #2fda0d;
+    background-color: rgb(5, 176, 255);
     color: black;
     font-family: 'Oswald', sans-serif;
     margin-top: 35px;
     cursor: pointer;
+    transition: .5s;
+}
+
+.profile-button:hover {
+    box-shadow: inset .5px .5px 6px 3px #292828;
 }
 
 .divider {
@@ -313,7 +318,7 @@ textarea {
 button {
     width: 101%;
     border: none;
-    background: #2fda0d;
+    background: rgb(5, 176, 255);
     color: black;
     border-radius: 15px;
     padding: 8px 12px;
