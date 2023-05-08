@@ -221,7 +221,7 @@ li:hover {
 .project-card {
     width: 700px;
     height: 200px;
-    background-color: #000;
+    background-color: pink;
     box-shadow: 10px 10px 5px black;
     border-radius: 8px;
     display: flex;
@@ -245,9 +245,15 @@ li:hover {
     left: 20px;
 }
 
-.project-text {
+.project-text-right {
     color: #fff;
     font-family: 'Oswald', sans-serif;
+}
+
+.project-text-left {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 3px;
 }
 
 .form-container {
