@@ -330,5 +330,10 @@ button {
     padding: 8px 12px;
     font-size: 18px;
     font-family: 'Oswald', sans-serif;
+    transition: .5s;
     cursor: pointer;
+}
+
+button:hover {
+    box-shadow: inset .5px .5px 6px 3px #292828;
 }
