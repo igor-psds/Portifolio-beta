@@ -221,7 +221,7 @@ li:hover {
 .project-card {
     width: 700px;
     height: 200px;
-    background-color: pink;
+    background-color: #000;
     box-shadow: 10px 10px 5px black;
     border-radius: 8px;
     display: flex;
